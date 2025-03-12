@@ -4,3 +4,9 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
 
 names.forEach((element) => console.log(element));
+
+/* equivale a ---
+ names.forEach((element) => {
+    console.log(element)
+    
+});*/
